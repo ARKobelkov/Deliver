@@ -1,0 +1,36 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__logo {
+		width: 119px;
+		&__img {
+			width: 100%;
+		}
+	}
+	&__social {
+		display: flex;
+		justify-content: center;
+	}
+	&__social-item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 34px;
+		height: 34px;
+		background-color: #fefefe;
+		border-radius: 100%;
+		margin-left: 10px;
+		margin-top: 11px;
+		&:hover {
+			img {
+				transition: 0.5s all;
+				opacity: 1;
+			}
+		}
+		img {
+			height: 17px;
+			opacity: 0.5;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Novecento-WideDemiBold';
+	src: url('../fonts/Novecento-WideDemiBold.eot'),
+		url('../fonts/Novecento-WideDemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Novecento-WideDemiBold.woff2') format('woff2'),
+		url('../fonts/Novecento-WideDemiBold.woff') format('woff'),
+		url('../fonts/Novecento-WideDemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeueCyr-Roman';
+	src: url('../fonts/HelveticaNeueCyr-Roman.eot'),
+		url('../fonts/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+		url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');;
+	font-weight: 400;
+	font-style: normal;
+}
