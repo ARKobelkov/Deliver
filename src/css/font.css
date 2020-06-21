@@ -13,7 +13,15 @@
 	src: url('../fonts/HelveticaNeueCyr-Roman.eot'),
 		url('../fonts/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
-		url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');;
+		url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype');
 	font-weight: 400;
 	font-style: normal;
 }
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico-Regular.eot');
+    src: url('../fonts/Pacifico-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Pacifico-Regular.woff') format('woff'),
+		url('../fonts/Pacifico-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;

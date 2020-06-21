@@ -1,6 +1,9 @@
 @import 'base/variables';
 * {
 	font-family: 'Novecento-WideDemiBold', sans-serif;
+	.descr, .services__link  {
+		font-family: $Hel, sans-serif;
+	}
 }
 .container {
 	max-width: 1180px;
@@ -8,3 +11,8 @@
 }
 @import 'blocks/home';
 @import 'blocks/header';
+@import 'blocks/team&label';
+@import 'blocks/services';
+@import 'blocks/work';
+@import 'blocks/purchase';
+@import 'blocks/footer';

@@ -3,10 +3,11 @@
 	justify-content: space-between;
 	align-items: center;
 	&__logo {
-		width: 119px;
-		&__img {
-			width: 100%;
-		}
+		font-family: Pacifico;
+		font-size: 40px;
+		font-weight: 300;
+		color: #ffffff;
+		text-decoration: none;
 	}
 	&__social {
 		display: flex;

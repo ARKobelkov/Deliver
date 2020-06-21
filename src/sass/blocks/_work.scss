@@ -1,0 +1,34 @@
+.work {
+    position: relative;
+    padding-bottom: 59px;
+    .screen {
+        position: absolute;
+    }
+    &__background {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 360px;
+        background-color: #efefef;
+        z-index: -1;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item  {
+        display: flex;
+        flex-direction: column;
+    }
+    &__screen {
+        position: absolute;
+        margin: 16px 47px;
+        width: 260px;
+        height: 149px;
+        background: url(../img/home_screen.png) center (center/cover) no-repeat;
+        transition: 0.5s all;
+        &:hover {
+            background: url(../img/screen-on.png) center (center/cover) no-repeat;
+        }
+    }
+}
