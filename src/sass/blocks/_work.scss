@@ -1,9 +1,5 @@
 .work {
-    position: relative;
     padding-bottom: 59px;
-    .screen {
-        position: absolute;
-    }
     &__background {
         position: absolute;
         left: 0;
@@ -13,6 +9,7 @@
         z-index: -1;
     }
     &__wrapper {
+        position: relative;
         display: flex;
         justify-content: space-between;
     }
@@ -20,13 +17,21 @@
         display: flex;
         flex-direction: column;
     }
+    &__comp {
+        display: block;
+        width: 354px;
+        height: 200px;
+        background: url(../img/home_comp.png) center (center/cover) no-repeat;
+    }
     &__screen {
         position: absolute;
+        top: 0;
+        display: block;
         margin: 16px 47px;
         width: 260px;
         height: 149px;
         background: url(../img/home_screen.png) center (center/cover) no-repeat;
-        transition: 0.5s all;
+        transition: 1s all;
         &:hover {
             background: url(../img/screen-on.png) center (center/cover) no-repeat;
         }
