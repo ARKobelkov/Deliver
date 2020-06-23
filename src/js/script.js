@@ -4,8 +4,10 @@ $(document).ready(function(){
 		speed: 1200,
 		autoplay: true,
 		autoplaySpeed: 5000,
-		prevArrow: '<button type="button" class="slick-prev"><img src="icons/previous.svg"></button>',
-		nextArrow: '<button type="button" class="slick-next"><img src="icons/next.svg"</button>',
+		prevArrow: '<button type="button" class="home__slick home__prev"><img src="icons/previous.svg"></button>',
+		nextArrow: '<button type="button" class="home__slick home__next"><img src="icons/next.svg"</button>',
+		appendArrows: '.home',
+		appendDots: '.home',
 		responsive: [
 			{
 				breakpoint: 992,
