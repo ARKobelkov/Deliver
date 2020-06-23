@@ -1,6 +1,7 @@
 .home {
     &__carousel {
-        margin-top: 148px;
+        margin: 148px auto 0 auto;
+        max-width: 900px;
     }
     &__slick {
         position: absolute;
@@ -26,37 +27,6 @@
     }
 }
 
-
-
-
-    
-
-
-    // .slick-prev, .slick-next {
-    //     position: absolute;
-    //     transform: translate(-200%, -45%);
-    //     top: 0;
-    //     border: none;
-    //     background-color: rgba(37, 32, 32, 0);
-    //     opacity: 0.2;
-    //     transition: 0.5s all;
-    //     cursor: pointer;
-    //     width: 64px;
-    //     height: 64px;
-    //     padding: 0;
-    //     &:hover {
-    //         opacity: 1;
-    //     }
-    //     img {
-    //         width: 64px;
-    //         height: 64px;
-    //     }
-    // }
-    // .slick-next {
-    //     right: 0;
-    //     top: 0;
-    //     transform: translate(200%, -45%);
-    // }
     // .slick-dots {
     //     position: absolute;
     //     display: block;

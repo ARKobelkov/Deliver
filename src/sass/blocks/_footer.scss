@@ -108,6 +108,7 @@
         align-items: center;
         margin-top: 28px;
         input {
+            outline: none;
             width: 144px;
             height: 40px;
             background-color: #4e4c4c;
@@ -123,6 +124,7 @@
         }
     }
     &__btn  {
+        outline: none;
         padding: 0;
         width: 53px;
         height: 40px;
