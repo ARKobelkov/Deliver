@@ -1,5 +1,5 @@
 .work {
-    padding-bottom: 59px;
+    padding-bottom: 50px;
     &__background {
         position: absolute;
         left: 0;
@@ -26,6 +26,8 @@
     &__comp {
         display: block;
         width: 100%;
+        max-height: 200px;
+        max-width: 354px;
     }
     &__screens {
         display: block;
