@@ -64,7 +64,6 @@
         font-size: 18px;
         font-weight: 600;
         color: #5f5b5b;
-        
         &:after {
             content: '/';
             position: absolute;
@@ -82,13 +81,24 @@
                 content: ''
             }
         }
+        &_active {
+            a {
+                color: #87b672;
+            }
+        }
     }
     &__link {
         display: block;
-        color: #5f5b5b;
         text-decoration: none;
+        color: #5f5b5b;
         &:hover {
             color: #87b672;
+        }
+    }
+    &__content {
+        display: none;
+        &_active{
+            display: block;
         }
     }
 }
