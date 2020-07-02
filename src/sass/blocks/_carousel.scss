@@ -25,36 +25,36 @@
     &__next {
         right:  70px;
     }
-    .slick-dots {
-        position: absolute;
-        display: block;
-        bottom: 30px;
-        margin: 0;
+}
+.slick-dots {
+    position: absolute;
+    display: block;
+    bottom: 30px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    li {
+        display: inline-block;
         padding: 0;
-        list-style-type: none;
-        width: 100%;
-        text-align: center;
-        li {
-            // position: relative;
-            display: inline-block;
+        button {
+            outline: none;
             padding: 0;
-            button {
-                padding: 0;
-                border: none;
-                border-radius: 100%;
-                width: 8px;
-                height: 8px;
-                margin: 0 2px;
-                font-size: 0;
-                cursor: pointer;
-            }
+            border: none;
+            border-radius: 100%;
+            width: 8px;
+            height: 8px;
+            margin: 0 2px;
+            font-size: 0;
+            cursor: pointer;
         }
-        .slick-active {
-            button {
-                width: 16px;
-                height: 16px;
-                transition: 0.5s all;
-            }
+    }
+    .slick-active {
+        button {
+            width: 16px;
+            height: 16px;
+            transition: 0.5s all;
         }
     }
 }

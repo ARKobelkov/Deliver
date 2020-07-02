@@ -1,7 +1,7 @@
 .archive {
     padding: 60px 0;
     &__main {
-        max-width: 733px;
+        max-width: 750px;
     }
     &__descr {
         font-family: $Hel;
@@ -43,6 +43,7 @@
     position: relative;
 }
 .sidebar {
+    width: 339px;
     max-width: 348px;
     position: absolute;
     right: 0;
@@ -80,7 +81,6 @@
     }
     &__hr {
         max-width: 339px;
-        margin: 15px 0;
         border-top: none;
         color: #cccccc;
     }
